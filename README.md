@@ -1,5 +1,4 @@
-#
-Mettre a jour les champs suivants dans `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md` et `SECURITY.md` :
- - `ENTER_EMAIL@dfo-mpo.gc.ca`
- - `PROJECT_NAME`
-  
+# Carte eclaire
+ Application R-shiny pour pratiquer l'identification d'espèces sur des photos de capture. 
+
+Ce dépo de contient pas de photos.
