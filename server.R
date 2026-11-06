@@ -1,6 +1,8 @@
 library(shiny)
 library(sf)
 
+options(bitmapType = 'cairo') # neede to force headless
+
 
 server <- function(input, output, session) {
   #
