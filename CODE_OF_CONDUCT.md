@@ -2,7 +2,7 @@
 
 ([Français](#code-de-conduite))
 
-Contributors to repositories hosted in [`PROJECT_NAME`] are expected to follow the Contributor Covenant Code of Conduct, and those working within Government are also expected to follow the Values and Ethics Code for the Public Sector
+Contributors to repositories hosted in [`carte_eclaire`] are expected to follow the Contributor Covenant Code of Conduct, and those working within Government are also expected to follow the Values and Ethics Code for the Public Sector
 
 ## Values and Ethics Code for the Public Sector
 
@@ -44,7 +44,7 @@ Representation of a project may be further defined and clarified by project main
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at [`ENTER_EMAIL@dfo-mpo.gc.ca`].
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at [`david.sean-fortin@dfo-mpo.gc.ca`].
 All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances.
 The project team is obligated to maintain confidentiality with regard to the reporter of an incident.
 Further details of specific enforcement policies may be posted separately.
@@ -65,7 +65,7 @@ This Code of Conduct is also inspired by GDS' `alphagov` [Code of conduct](https
 
 ([English](#contributor-covenant-code-of-conduct))
 
-Les contributeurs aux dépôts hébergés dans [`PROJECT_NAME`] sont tenus de respecter le Code de conduite du Pacte des contributeurs, et ceux qui travaillent au sein du gouvernement sont également tenus de respecter le Code de valeurs et d'éthique du secteur public.
+Les contributeurs aux dépôts hébergés dans [`carte_eclaire`] sont tenus de respecter le Code de conduite du Pacte des contributeurs, et ceux qui travaillent au sein du gouvernement sont également tenus de respecter le Code de valeurs et d'éthique du secteur public.
 
 ## Notre engagement
 
@@ -103,7 +103,7 @@ La représentation d'un projet peut être mieux défini et clarifié par les res
 
 ## Application des règles
 
-Les cas de comportement abusif, de harcèlement ou d'autres comportements inacceptables peuvent être rapportés en communiquant avec l'équipe de projet à l'adresse suivante :[`ENTER_EMAIL@dfo-mpo.gc.ca`].
+Les cas de comportement abusif, de harcèlement ou d'autres comportements inacceptables peuvent être rapportés en communiquant avec l'équipe de projet à l'adresse suivante :[`david.sean-fortin@dfo-mpo.gc.ca`].
 Toutes les plaintes feront l'objet d'un examen et d'une enquête et donneront lieu à une réponse qui est jugée nécessaire et appropriée dans les circonstances.
 L'équipe de projet est dans l'obligation de respecter la confidentialité à l'égard du déclarant d'un incident.
 De plus amples détails sur les politiques d'application spécifiques peuvent être affichés séparément.
