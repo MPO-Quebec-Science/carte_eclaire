@@ -9,7 +9,7 @@ server <- function(input, output, session) {
   if (is.null(session$userData)) {
     session$userData <- new.env()
   }
-  session$userData$deck <- reactiveVal(NULL) # current deck
+  session$userData$deck <- reactiveVal(open_deck("_intro_")) # current deck
   session$userData$game_cards <- reactiveVal(NULL) # current random cards from deck (defines the game)
   session$userData$num_tries <- reactiveVal(0) # num tries in game
   session$userData$num_success <- reactiveVal(0) # num success in game
@@ -26,6 +26,8 @@ server <- function(input, output, session) {
     print("new game")
     # mix and sample num_cards cards frome deck
     deck <- session$userData$deck()
+    print(str(deck))
+    print(paste("deck ", nrow(deck)))
     session$userData$game_cards(deck[sample(nrow(deck), num_cards), ])
     session$userData$current_card_idx(1)
     session$userData$num_tries(0)

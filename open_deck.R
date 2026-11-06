@@ -1,11 +1,9 @@
 open_deck <- function(deckname) {
   library(stringr)
 
-
   # add the folder and extension
   filename <- paste0("./decks/", deckname, ".csv")
   deck <- read.csv(filename)
-
   # concat all key columns into one string (to compare with catch string)
   deck$string <- paste(
     deck$strap_code,
