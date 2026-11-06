@@ -3,9 +3,13 @@
 make_catch_list <- function() {
   # load all decks
   available_decks <- list.files("./decks/")
+  # remove .csv from deck filename
+  available_decks <- strsplit(available_decks, ".csv")
+
   monolithic_deck <- NULL
 
   for (deck_file in available_decks) {
+
     # skip the _intro_ deck
     if (deck_file != "_intro_") {
       deck <- open_deck(deck_file)
