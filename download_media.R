@@ -22,7 +22,7 @@ download_deck_media <- function(deck, andes_base_url) {
     #  example. "http://<ANDES_BASE_URL>/media/images/3e7dfa65-293a-348c-aa92-ce646ee303f5__image_THUMBNAIL.jpg"
 
     andes_fname <- stringr::str_split_i(image_file, "/", i = -1)
-    andes_fname <- paste0("/media/images/", andes_fname)
+    # andes_fname <- paste0("/media/images/", andes_fname)
 
     if (!file.exists(local_filename)) {
       download_image_thumbnail(andes_base_url, local_filename, andes_fname)
