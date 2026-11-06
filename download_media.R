@@ -25,7 +25,7 @@ download_deck_media <- function(deck, andes_base_url) {
     andes_fname <- paste0("/media/images/", andes_fname)
 
     if (!file.exists(local_filename)) {
-      download_image_thumbnail(andes_base_url, local_fname, andes_fname)
+      download_image_thumbnail(andes_base_url, local_filename, andes_fname)
     } else {
       print(paste0("Found ", local_filename, " skipping download!"))
     }
